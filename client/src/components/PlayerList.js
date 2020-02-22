@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import PlayerCard from './PlayerCard';
-import useLocalStorage from '../hooks/useLocalStorage';
+
 
 
 const PlayerList = props =>{
