@@ -8,7 +8,7 @@ test("Check if data renders to the screen", () => {
         {name: "name2", country: "country2", searches: 10},
         {name: "name3", country: "country3", searches: 1}
     ]
-    const { getByText, findByText } = render(<PlayerList data={dummyData} />);
+    const { getByText } = render(<PlayerList data={dummyData} />);
 
     getByText(/name1/i);
     getByText(/name2/i);

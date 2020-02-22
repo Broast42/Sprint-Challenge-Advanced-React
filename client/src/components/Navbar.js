@@ -9,7 +9,11 @@ const Navbar = () => {
     };
     return (
       <nav className="navbar">
-        <h1>Players</h1>
+          <div>
+              <h1>Woman's World Cup Players</h1>
+              <p>Ranked by search intrest from Google Trends</p>
+          </div>
+        
   
         <div className="dark-mode__toggle">
           <div
