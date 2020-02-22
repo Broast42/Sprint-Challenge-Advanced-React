@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PlayerCard from './PlayerCard';
+import useLocalStorage from '../hooks/useLocalStorage';
+
 
 const PlayerList = props =>{
+
     return(
         <div className="playerFlex">
             {props.data.map((x,i) => (

@@ -1,12 +1,13 @@
 import React from 'react';
 import axios from 'axios';
 import PlayerList from './components/PlayerList';
+import Navbar from './components/Navbar';
 import './App.css';
 
 class App extends React.Component {
   constructor(){
     super();
-    this.state ={
+    this.state = {
       data: []
     }
   }
@@ -25,7 +26,8 @@ class App extends React.Component {
 
   render(){
     return (
-      <div className="App">
+      <div >
+          <Navbar />
           <PlayerList data={this.state.data} />
       </div>
     );
