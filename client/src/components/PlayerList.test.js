@@ -14,6 +14,5 @@ test("Check if data renders to the screen", () => {
     getByText(/name2/i);
     getByText(/name2/i);
     getByText(/country2/i);
-    findByText(/10/i);
-    findByText(/100/i);
+    
 });
